@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/libs/normalise/normalize.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+<body>
+	<div class="wraper"> 
+		<header class="header">	
+			<div class="container">
+				<div class="column-wrap">
+					<div class="column4">
+						<nav class="menu">
+							<ul class="menu-list">
+								<li class="list-item">
+									<a href="index.html" class="list-item-link">Главная</a>
+								</li>
+								<li class="list-item">
+									<a href="fhoto-page.html" class="list-item-link">наши работы</a>
+								</li>
+								<li class="list-item">
+									<a href="entry.html" class="list-item-link">записаться</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-link">контакты</a>
+								</li>
+								
+							</ul>
+						</nav>
+					</div>
+					<div class="column2">
+						<div class="header-btn-wrap">
+							<div class="header-btn-wrap">
+							<a href="#win1" class="login-btn">вход</a>
+							<a href="#" class="overlay" id="win1"></a>
+							<div class="login-form">
+								<div class="login-form-content">
+									<h2>личный кабинет</h2>
+									<h3>Введите свой логин и пароль, чтобы войти</h3>
+									<form action="#" class="login-password-form">
+										<label>
+											<input type="text" name="login" placeholder="Логин"  class="form-control form-control-login">
+										</label>
+										<label>
+											<input type="password" name="password" placeholder="Пароль"  class="form-control form-control-password">
+										</label>
+										<div class="login-form-checkbox">
+											<label>
+												<input type="checkbox" name="question-one" value="Запомните меня" class="info">
+												<span class="span">Запомните меня</span>
+											</label>
+											<a href="#">Я забыл пароль!</a>
+										</div>
+										<div class="button">
+											<input type="submit" value="Войти в личный кабинет">
+										</div>
+									</form>
+								</div>
+								<a class="close" title="Закрыть" href="#close"></a>
+							</div>
+						</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="entry">
+			<!-- logotip -->
+			<div class="logo">
+				<img src="assets/img/Vector-Smart-Object.png" alt="logo">
+			</div>
+			<div class="container">
+				<div class="heder">
+					<h1>записаться на стрижку</h1>
+					<a href="index.html" class="btn">на главную</a>
+				</div>
+				<form action="#" id="form-group">
+					<div class="name">
+						<div class="column2">
+							<label>
+								<input type="text" name="name" placeholder="Имя"  class="form-control">
+							</label>
+						</div>
+						<div class="column2">
+							<label>
+								<input type="text" name="name" placeholder="Фамилия"  class="form-control">
+							</label>
+						</div>
+						<div class="column2">
+							<label>
+								<input type="text" name="name" placeholder="Отчество"  class="form-control">
+							</label>
+						</div>
+					</div>
+					<div class="contacts">
+						<div class="column3">
+							<label>
+								<input type="text" name="email" placeholder="Контактный Телефон" class="form-control">
+							</label>
+						</div>
+						<div class="column3">
+							<label>
+								<input type="text" name="email" placeholder="Контактный e-mail"  class="form-control">
+							</label>
+						</div>
+					</div>
+					<div class="info">
+						<div class="column6">
+							<textarea name="enquiry"  rows="10" id="input-enquiry" placeholder="Доп. информация для мастера"></textarea>
+						</div>
+					</div>
+					<div class="checkbox">
+						<h2>Выберите модель бороды:</h2>
+						<div class="radio-form">	
+							<label class="radio-label">
+								<input class="radio" type="radio" name="question-one" value="адмирал" checked>
+								<span class="radio-custom"></span>
+								<span>адмирал</span>
+								<img src="assets/img/beard-1.svg.png" alt="">
+							</label>
+							<label class="radio-label">
+								<input class="radio" type="radio" name="question-one" value="лесоруб">
+								<span class="radio-custom"></span>
+								<span>лесоруб</span>
+								<img src="assets/img/beard-2.svg.png" alt="">
+							</label>
+							<label class="radio-label">
+								<input class="radio" type="radio" name="question-one" value="полярник">
+								<span class="radio-custom"></span>
+								<span>полярник</span>
+								<img src="assets/img/beard-3.svg.png" alt="">
+							</label>
+							<label class="radio-label">
+								<input class="radio" type="radio" name="question-one" value="боярин">
+								<span class="radio-custom"></span>
+								<span>боярин</span>
+								<img src="assets/img/beard-4.svg.png" alt="">
+							</label>
+							<label class="radio-label">
+								<input class="radio" type="radio" name="question-one" value="мудрец">
+								<span class="radio-custom"></span>
+								<span>мудрец</span>
+								<img src="assets/img/beard-5.svg.png" alt="">
+							</label>
+						</div>
+					</div>
+					<div class="checkbox">
+						<h2>Дополнительные услуги:</h2>
+						<div class="checkbox-bottom">
+							<div class="column2">
+								<div class="bottom">
+									<label>
+										<input type="checkbox" name="question-one" value="Покрасить бороду" class="info" checked>
+										<span class="span">Покрасить бороду</span>
+									</label>
+									<label>
+										<input type="checkbox" name="question-one" value="Накрутить усы" class="info" checked>
+										<span class="span">Накрутить усы</span>
+									</label>
+								</div>
+							</div>
+							<div class="column2">
+								<div class="bottom">
+									<label>
+										<input type="checkbox" name="question-one" value="Причесать бороду" class="info">
+										<span class="span">Причесать бороду</span>
+									</label>
+									<label>
+										<input type="checkbox" name="question-one" value="Подровнять виски" class="info">
+										<span class="span">Подровнять виски</span>
+									</label>
+								</div>
+							</div>
+							<div class="column2">
+								<div class="bottom">
+									<label>
+										<input type="checkbox" name="question-one" value="Убрать седину" class="info">
+										<span class="span">Убрать седину</span>
+									</label>
+									<label>
+										<input type="checkbox" name="question-one" value="Отполировать лысину" class="info">
+										<span class="span">Отполировать лысину</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="button">
+							<input type="submit" value="Отправить заявку">
+						</div>
+					</div>						
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="column2">
+					<div class="box adress">
+						<h3>Барбершоп Бородинский</h3>
+						<p>г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+						<p>Tel.:<span class="fone-number">+7 (812) 555-66-66</span></p>
+					</div>
+				</div>
+				<div class="column2">
+					<div class="box social">
+						<h3>Давайте дружить!</h3>
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="#" class="social-list-item-link"><img src="assets/img/vk-icon-small.png" alt=""></a>
+							</li>
+							<li class="social-list-item">
+								<a href="#" class="social-list-item-link"><img src="assets/img/facebook-icon-small.png" alt=""></a>
+							</li>
+							<li class="social-list-item">
+								<a href="#" class=""><img src="assets/img/insta-icon-small.png" alt=""></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="column2">
+					<div class="box developed">
+						<div class="developed-item">
+							<h3>Разработано:</h3>
+							<a href="#" class="btn">HTML ACADEMY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://use.fontawesome.com/e11525756b.js"></script>
+</body>
+</html>
